@@ -2,7 +2,7 @@ import cv2 as cv
 
 face_cascade = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
 eye_cascade = cv.CascadeClassifier("haarcascade_eye_tree_eyeglasses.xml")
-img = cv.imread("Ronaldo-1.jpg")
+img = cv.imread("152849429_2176290949173060_4050173761786886161_n.jpg")
 
 gray_img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
